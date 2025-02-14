@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:rentapp/firebase_options.dart';
+import 'package:rentapp/presentation/pages/car_details_page.dart';
 import 'package:rentapp/presentation/pages/onboarding_page.dart';
 
 Future<void> main() async {
@@ -22,6 +23,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: OnboardingPage());
+        home: CarDatailPage());
   }
 }
