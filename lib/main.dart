@@ -4,6 +4,8 @@ import 'package:rentapp/firebase_options.dart';
 import 'package:rentapp/presentation/pages/car_details_page.dart';
 import 'package:rentapp/presentation/pages/onboarding_page.dart';
 
+import 'presentation/pages/maps_details_page.dart';
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
@@ -23,6 +25,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: CarDatailPage());
+        home: OnboardingPage());
   }
 }
