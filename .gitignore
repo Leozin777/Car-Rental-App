@@ -721,3 +721,4 @@ fabric.properties
 !/gradle/wrapper/gradle-wrapper.jar
 
 # End of https://www.toptal.com/developers/gitignore/api/kotlin,swift,android,androidstudio,flutter,firebase,dart,vs
+firebase.json
