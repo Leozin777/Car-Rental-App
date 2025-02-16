@@ -1,6 +1,7 @@
 # 🚗 Aplicativo de Aluguel de Carros (Projeto de Estudo)
 
-Este projeto foi desenvolvido como um estudo prático para aprimorar meus conhecimentos em Flutter, Firebase e arquitetura limpa (Clean Architecture). O aplicativo simula um sistema de aluguel de carros, permitindo o cadastro, exibição e gerenciamento de veículos.
+Este projeto foi desenvolvido como um estudo prático para aprimorar meus conhecimentos em Flutter, Firebase e arquitetura limpa (Clean Architecture). O aplicativo simula um sistema de aluguel de carros.
+Código desenvolvido foi baseado no vídeo do Flutter Guy [link para o vídeo](https://www.youtube.com/watch?v=RKrWgdCUP1U)
 
 ## 🔍 Tecnologias e Ferramentas Utilizadas
 - **Flutter:** desenvolvimento da interface com uma experiência responsiva e fluida.
