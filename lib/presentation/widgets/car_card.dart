@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../data_models/car.dart';
+import '../../data/models/car.dart';
 import '../pages/car_details_page.dart';
 
 class CarCard extends StatelessWidget {

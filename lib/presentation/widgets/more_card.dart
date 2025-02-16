@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rentapp/data_models/car.dart';
+import 'package:rentapp/data/models/car.dart';
 
 class MoreCard extends StatelessWidget {
   final Car car;
@@ -44,6 +44,13 @@ class MoreCard extends StatelessWidget {
                     width: 10,
                   ),
                   Icon(Icons.battery_full, color: Colors.white, size: 16),
+                  SizedBox(
+                    width: 5,
+                  ),
+                  Text(
+                    "> ${car.fuelCapacity.toString()}",
+                    style: TextStyle(color: Colors.white, fontSize: 14),
+                  ),
                 ],
               )
             ],

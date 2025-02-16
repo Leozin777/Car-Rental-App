@@ -3,7 +3,7 @@ import 'package:rentapp/presentation/pages/maps_details_page.dart';
 import 'package:rentapp/presentation/widgets/car_card.dart';
 import 'package:rentapp/presentation/widgets/more_card.dart';
 
-import '../../data_models/car.dart';
+import '../../data/models/car.dart';
 
 class CarDatailPage extends StatefulWidget {
   final Car car;
@@ -126,25 +126,28 @@ class _CarDatailPageState extends State<CarDatailPage> with SingleTickerProvider
                 children: [
                   MoreCard(
                       car: Car(
-                          model: widget.car.model,
+                          model: widget.car.model + "-1",
                           distance: widget.car.distance,
                           fuelCapacity: widget.car.fuelCapacity,
-                          pricePerHour: widget.car.pricePerHour)),
-                  SizedBox(height: 5),
+                          pricePerHour: widget.car.pricePerHour + 10)),
+                  SizedBox(
+                    height: 5,
+                  ),
                   MoreCard(
                       car: Car(
-                          model: widget.car.model,
+                          model: widget.car.model + "-2",
                           distance: widget.car.distance,
                           fuelCapacity: widget.car.fuelCapacity,
-                          pricePerHour: widget.car.pricePerHour)),
-                  SizedBox(height: 5),
+                          pricePerHour: widget.car.pricePerHour + 20)),
+                  SizedBox(
+                    height: 5,
+                  ),
                   MoreCard(
                       car: Car(
-                          model: widget.car.model,
+                          model: widget.car.model + "-3",
                           distance: widget.car.distance,
                           fuelCapacity: widget.car.fuelCapacity,
-                          pricePerHour: widget.car.pricePerHour)),
-                  SizedBox(height: 5),
+                          pricePerHour: widget.car.pricePerHour + 30)),
                 ],
               ),
             )
